@@ -13,7 +13,11 @@ Posteriormente, creamos un reporte dinámico que proporciona una visión detalla
 <h2 align="center"><b><i>:small_orange_diamond:KPIs:</i></b></h2>
 
 <h2 align="center"><b><i>:small_orange_diamond:SOLUCIÓN AL PROBLEMA:</i></b></h2>
+Nuestra propuesta de solución abarca la recopilación, el análisis y la interpretación sistemática de datos relevantes para obtener información valiosa y con ello proceder a la implementación de un modelo de análisis de sentimientos mediante procesamiento de lenguaje natural (NLP), diseñado para abordar los desafíos de la creciente competencia en la industria de restaurantes. Al incorporar este sistema, los restaurantes pueden elevar la satisfacción del cliente, tomar decisiones basadas en datos sólidos y consolidar su posición competitiva en el dinámico mercado gastronómico. Estamos comprometidos en brindar herramientas efectivas que permitan a los restaurantes no solo adaptarse a las demandas cambiantes, sino también destacar y prosperar en un entorno altamente competitivo.
 
 <h2 align="center"><b><i>:small_orange_diamond:TECNOLOGÍAS A UTILIZAR:</i></b></h2>
 
 <h2 align="center"><b><i>:small_orange_diamond:INTEGRANTES DEL EQUIPO:</i></b></h2>
+:purple_circle:Data Analyst: Nadir Angelini
+:purple_circle:Data Scientists: Camila Fernández Llaneza y Leonel Viscay
+:purple_circle:Data Engineer : Germán Gutierrez
