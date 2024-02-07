@@ -23,11 +23,44 @@ Enfocamos nuestros esfuerzos en la construcción de una base de datos sólida de
 Posteriormente, creamos un reporte dinámico que proporciona una visión detallada de las tendencias del consumidor en el sector gastronómico. Este análisis exhaustivo permite identificar riesgos y oportunidades mediante un seguimiento continuo. Nuestro enfoque en KPIs (Indicadores Clave de Rendimiento) específicos asegura una evaluación precisa y eficiente de los resultados obtenidos.
 
 <h2 align="center"><b><i>:small_orange_diamond:KPIs:</i></b></h2>
+on la implementación del proyecto se busca poder cumplir los KPIs:
+1-     Índice de Satisfacción del Cliente (ISC):
+Definición: El ISC mide el nivel de satisfacción general de los clientes con respecto a la experiencia en el restaurante.
+Fórmula: ISC = (Suma de todas las calificaciones de satisfacción / Total de calificaciones) * 100
+Métrica: Valor porcentual. Se busca obtener un valor promedio mayor al de la media de los últimos 3 meses para los restaurantes en el Estado correspondiente.
+2-     Tasa de Retención de Clientes:
+Definición: La tasa de retención de clientes mide qué tan bien el restaurante está conservando a sus clientes existentes.
+Fórmula: (Número de clientes al final del período - Nuevos clientes adquiridos durante el período) / Número de clientes al inicio del período * 100
+Métrica: Porcentaje. Un alto índice indica que se logra retener a los clientes, lo cual es crucial para el éxito a largo plazo del restaurante.
+3-     Indicador de Reseñas Negativas:
+Definición: Un índice que indica la proporción de reseñas negativas en comparación con las positivas.
+Fórmula: (Número de reseñas negativas) / (Número total de reseñas)
+Métrica: Rango de valores entre 0 (bueno) y 1 (malo). Se busca reducir las reseñas negativas mensuales del consumidor respecto a la competencia.
+4-     Tasa de Reservas Futuras:
+Definición: La tasa de crecimiento en la cantidad de reservas de los restaurantes.
+Fórmula: ((Reservas actuales - Reservas del mes anterior) / Reservas del mes anterior) * 100
+Métrica: Porcentaje. Se busca aumentar la cantidad de reservas en un 5% respecto al mes anterior.
+5-     Comparación de Reseñas entre Restaurantes de la Misma Zona:
+Definición: Compara la cantidad y calidad de reseñas entre diferentes restaurantes ubicados en la misma zona geográfica.
+Fórmula: Número total de reseñas recibidas por el restaurante.
+Métrica: Puede ser cualitativa (evaluación subjetiva) o cuantitativa (número de reseñas). Se busca identificar tendencias y áreas de mejora en comparación con la competencia local.
 
 <h2 align="center"><b><i>:small_orange_diamond:SOLUCIÓN AL PROBLEMA:</i></b></h2>
 Nuestra propuesta de solución abarca la recopilación, el análisis y la interpretación sistemática de datos relevantes para obtener información valiosa y con ello proceder a la implementación de un modelo de análisis de sentimientos mediante procesamiento de lenguaje natural (NLP), diseñado para abordar los desafíos de la creciente competencia en la industria de restaurantes. Al incorporar este sistema, los restaurantes pueden elevar la satisfacción del cliente, tomar decisiones basadas en datos sólidos y consolidar su posición competitiva en el dinámico mercado gastronómico. Estamos comprometidos en brindar herramientas efectivas que permitan a los restaurantes no solo adaptarse a las demandas cambiantes, sino también destacar y prosperar en un entorno altamente competitivo.
 
 <h2 align="center"><b><i>:small_orange_diamond:TECNOLOGÍAS A UTILIZAR:</i></b></h2>
+• Visual Studio Code
+• Google Cloud
+• Python
+• Pandas
+• Numpy
+• Scikit-learn
+• Matplotlib
+• Seaborn
+• Power Bi
+• Jupyter
+• Docker
+• Github
 
 <h2 align="center"><b><i>:small_orange_diamond:INTEGRANTES DEL EQUIPO:</i></b></h2>
 :purple_circle:Data Analyst: Nadir Angelini
@@ -35,4 +68,4 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 :purple_circle:Data Engineer : Germán Gutierrez
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
-[Planificación](https://www.trello.com/b/oqMq7m68/pfgoogleyelp)
+[Planificación](https://trello.com/b/oqMq7m68/pfgoogleyelp)
