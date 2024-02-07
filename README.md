@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="(https://github.com/camillaneza/PF_Google_Yelp/blob/main/Logo_empresa.png?raw=true)" alt="Logo de la empresa">
+<img src="https://github.com/camillaneza/PF_Google_Yelp/blob/main/Logo_empresa.png?raw=true" alt="Logo de la empresa">
   
   
 </p>
