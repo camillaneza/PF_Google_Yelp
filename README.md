@@ -1,6 +1,6 @@
 <h1 align="center">PROYECTO FINAL: YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h1>
 
-<h1 align="center">PROYECTO FINAL: YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h1>
+<h1 align="center">![Logo_empresa.png](https://github.com/camillaneza/PF_Google_Yelp/blob/main/Logo_empresa.png?raw=true)</h1>
 
 
 <h2 align="center"><b><i>:small_orange_diamond:ALCANCES DEL PROYECTO:</i></b></h2>
