@@ -2,7 +2,7 @@
 
 <h1 align="center">![Logo de la empresa](/main/Logo_empresa.png?raw=true)</h1> 
 
-
+![Logo de la empresa](/main/Logo_empresa.png?raw=true)
 <h2 align="center"><b><i>:small_orange_diamond:ALCANCES DEL PROYECTO:</i></b></h2>
 Este proyecto consiste en analizar el mercado estadounidense referido a restaurantes y afines, desarrollando el rol de una empresa consultora de datos, mediante la utilización y extracción de los mismos de las fuentes de Yelp y Google Maps.
 
