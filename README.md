@@ -1,5 +1,8 @@
 <h1 align="center">PROYECTO FINAL: YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h1>
 
+<h1 align="center">PROYECTO FINAL: YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h1>
+
+
 <h2 align="center"><b><i>:small_orange_diamond:ALCANCES DEL PROYECTO:</i></b></h2>
 Este proyecto consiste en analizar el mercado estadounidense referido a restaurantes y afines, desarrollando el rol de una empresa consultora de datos, mediante la utilización y extracción de los mismos de las fuentes de Yelp y Google Maps.
 
