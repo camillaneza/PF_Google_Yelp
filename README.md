@@ -97,5 +97,5 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
 
-[Planificación](https://trello.com/b/oqMq7m68/pfgoogleyelp)
-[Documentación: Propuesta del Proyecto](https://docs.google.com/document/d/1BgjR7BgYJHB1vxhq1U-IXXomBF3vnN7GtuaUTItTp38/edit)
+<p>[Planificación](https://trello.com/b/oqMq7m68/pfgoogleyelp)</p>
+<p>[Documentación: Propuesta del Proyecto](https://docs.google.com/document/d/1BgjR7BgYJHB1vxhq1U-IXXomBF3vnN7GtuaUTItTp38/edit)</p>
