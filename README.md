@@ -91,8 +91,8 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 # <h2 align="center"><b><i>:small_orange_diamond:**INTEGRANTES DEL EQUIPO**</i></b></h2>
 <p>:purple_circle:Data Engineer : Germán Gutierrez</p>
 <p>:purple_circle:Data Analyst: Nadir Angelini</p>
-:purple_circle:Data Scientists: Camila Fernández Llaneza y Leonel Viscay
-:purple_circle:Data Engineer : Germán Gutierrez
+<p>:purple_circle:Data Scientists: Camila Fernández Llaneza y Leonel Viscay</p>
+<p>:purple_circle:Data Engineer : Germán Gutierrez</p>
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
-[Planificación](https://trello.com/b/oqMq7m68/pfgoogleyelp)
+[Planificación](https://www.trello.com/b/oqMq7m68/pfgoogleyelp)
