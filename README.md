@@ -102,6 +102,11 @@ Se ha realizado un EDA_Preliminar que es la exploración de las diferentes fuent
 # <h3 align="center"><b><i>**Arquitectura del proyecto**:</i></b></h3>
 ![Arquitectura del Proyecto](https://github.com/camillaneza/PF_Google_Yelp/blob/1a8b4544b0ce7888baef22bbd8c67d7a321d48ed/Arquitectura.png)
 
+# <h3 align="center"><b><i>**Diagrama de Entidad-Relación**:</i></b></h3>
+![Diagrama de Entidad-Relación](https://github.com/camillaneza/PF_Google_Yelp/blob/2f282c2b2ec7af9a70530c2ce968ad5544893b06/Diagrama%20de%20Entidad-Relaci%C3%B3n.jpeg)
+
+# <h3 align="center"><b><i>**Dashboard**:</i></b></h3>
+Se realizó un Dashboard interactivo mostrando indicadores claves para las empresas así como los KPI's anteriormente mencionados para una mejora en la toma de decisiones en la implementación de estrategias.
 
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
