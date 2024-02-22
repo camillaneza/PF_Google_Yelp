@@ -94,6 +94,14 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 <p>:purple_circle:Data Scientists: Camila Fernández Llaneza y Leonel Viscay</p>
 
 
+# <h2 align="center"><b><i>:small_orange_diamond:**DESARROLLO DEL PROYECTO**:</i></b></h2>
+# <h1 align="center"><b><i>**Análisis preliminares - EDA´s (Análisis Exploratorio de Datos)**:</i></b></h1>
+Se ha realizado un EDA_Preliminar que es la exploración de las diferentes fuentes de datos de Google Maps y Yelp. El propósito de estos análisis preliminares consiste en determinar qué datos serán funcionales para los objetivos propuestos anteriormente con el fin de hacer una limpieza y crear la arquitectura del Data Warehouse para la ejecución del proyecto.
+
+
+
+
+
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
 
