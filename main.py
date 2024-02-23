@@ -31,9 +31,7 @@ user_similarity_cosine = pd.DataFrame(cosine_similarity(matrix.fillna(0)), index
 # Mostrar la matriz de similitud
 print(user_similarity_cosine)
 
-@app.get("/matriz-similitud")
-async def mostrar_matriz_similitud():
-    return user_similarity_cosine.to_dict()
+
 
 @app.get("/recomendar/{user_id}")
 async def recomendar(user_id: int):
