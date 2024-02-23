@@ -107,11 +107,11 @@ Se ha realizado un EDA_Preliminar que es la exploración de las diferentes fuent
 
 # <h3 align="center"><b><i>**Dashboard**:</i></b></h3>
 Se realizó un Dashboard interactivo mostrando indicadores claves para las empresas así como los KPI's anteriormente mencionados para una mejora en la toma de decisiones en la implementación de estrategias.
-[Dashboard 1](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%201.jpg)
-[Dashboard 21](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%202.jpg)
-[Dashboard 3](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%203.jpg)
-[Dashboard 4](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%204.jpg)
-[Dashboard 5](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%205.jpg)
+![Dashboard 1](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%201.jpg)
+![Dashboard 21](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%202.jpg)
+![Dashboard 3](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%203.jpg)
+![Dashboard 4](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%204.jpg)
+![Dashboard 5](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%205.jpg)
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
 
