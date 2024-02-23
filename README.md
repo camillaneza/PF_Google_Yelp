@@ -59,10 +59,7 @@ Métrica: Rango de valores entre 0 (bueno) y 1 (malo). Se busca reducir las rese
 Definición: La tasa de crecimiento en la cantidad de reservas de los restaurantes.
 Fórmula: ((Reservas actuales - Reservas del mes anterior) / Reservas del mes anterior) * 100
 Métrica: Porcentaje. Se busca aumentar la cantidad de reservas en un 5% respecto al mes anterior.
-* 5- Comparación de Reseñas entre Restaurantes de la Misma Zona:
-Definición: Compara la cantidad y calidad de reseñas entre diferentes restaurantes ubicados en la misma zona geográfica.
-Fórmula: Número total de reseñas recibidas por el restaurante.
-Métrica: Puede ser cualitativa (evaluación subjetiva) o cuantitativa (número de reseñas). Se busca identificar tendencias y áreas de mejora en comparación con la competencia local.
+
 </p>
 
 
