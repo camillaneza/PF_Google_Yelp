@@ -79,6 +79,38 @@ async def recomendar(user_id: int):
     return recommendations
 
 
+from fastapi import HTTPException
+
+@app.get('/sentiment_analysis_by_business/{business_id}')
+def sentiment_analysis_by_business(business_id: str):
+
+    '''
+    Counts the number of positive, neutral, and negative reviews for a given business ID.
+
+    Args:
+        business_id (str): ID of the business for which sentiment analysis is required.
+
+    Returns:
+        dict: Dictionary with the count of reviews by sentiment.
+    '''
+  
+    try:
+        # Filtrar el DataFrame por el ID de negocio
+        filtered_df = matrix.query(f"business_id == '{business_id}'")
+
+        if filtered_df.empty:
+            raise HTTPException(status_code=404, detail=f"No hay datos para el ID de negocio {business_id}")
+
+        # Contar las reseñas por sentimiento
+        sentiment_counts = filtered_df.groupby("categorizacion").size()
+
+        # Mapear las categorías a los nombres esperados
+        sentiment_mapping = {-1: "Negative", 0: "Neutral", 1: "Positive"}
+        sentiment_counts_mapped = {sentiment_mapping[key]: value for key, value in sentiment_counts.items()}
+
+        return sentiment_counts_mapped
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 
