@@ -110,8 +110,7 @@ def mostrar_analisis_sent():
         except ValueError as e:
             st.error(str(e))
 
-    st.write("Contenido de Análisis de Sentimientos")
-
+    
 
 def mostrar_pred():
     st.write("Sistema de Recomendación: Ingrsando el ID de Usuario, retornará los Restaurantes que podrían satisfacer")
@@ -132,6 +131,8 @@ def mostrar_pred():
             recomendaciones_html = recomendaciones.to_html(index=False)  # Eliminar el índice
             st.write("Las 5 recomendaciones principales:")
             st.write(recomendaciones_html, unsafe_allow_html=True)
+
+
 
 def main():
     st.title("Restaurantes Maps & Yelp")
@@ -160,12 +161,12 @@ def mostrar_botones():
     st.write("¡Bienvenido a la versión Beta de DataInsight Solutions!")
 
     # Botones de navegación
-    opcion = st.radio("Selecciona una opción:", ("Valor de acciones al Día", "Dashboard", "Predicciones", "Análisis de Sentimientos"))
+    opcion = st.radio("Selecciona una opción:", ("Valor de acciones al Día", "Dashboard", "Recomendaciones por Score", "Análisis de Sentimientos"))
 
     # Contenido según la opción seleccionada
     if opcion == "Dashboard":
         mostrar_dashboard()
-    elif opcion == "Predicciones":
+    elif opcion == "Recomendaciones por Score":
         mostrar_pred()
     elif opcion == "Valor de acciones al Día":
         mostrar_acciones_nasdaq()  # Llamada a la función mostrar_acciones_nasdaq()

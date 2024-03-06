@@ -9,7 +9,8 @@ streamlit/prueba_api.py
 main.py
 jupiter/prueba.ipynb
 data/muestra.parquet
-images/Chart Talk logo template.Financial growth talk logo .png
 main.py
 streamlit/prueba_app.py
 jupiter/Sistema_Recomendacion_Cami.ipynb
+streamlit/api_funcionando.py
+streamlit/api_modificada.py
