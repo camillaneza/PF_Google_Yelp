@@ -110,6 +110,10 @@ Se realizó un Dashboard interactivo mostrando indicadores claves para las empre
 ![Dashboard 4](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%204.jpg)
 ![Dashboard 5](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%205.jpg)
 
+
+https://dainsightsolutions.streamlit.app/  
+
+
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
 
 [Planificación](https://trello.com/b/oqMq7m68/pfgoogleyelp)
