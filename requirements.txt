@@ -1,5 +1,5 @@
-streamlit==1.31.1
-yfinance==0.2.37
+streamlit
+yfinance
 pandas
-scikit-learn==0.24.2
-numpy 
+scikit-learn
+numpy
