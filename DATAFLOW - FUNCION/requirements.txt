@@ -1,0 +1,11 @@
+google-cloud-storage
+google-cloud-bigquery
+pandas
+cloudstorage
+gcsfs
+fastparquet
+db-dtypes
+pyarrow
+db-dtypes
+dt
+textblob
