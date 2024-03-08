@@ -24,14 +24,22 @@ El análisis de los datos será enfocado en explicar la percepción que tienen l
 </p>
 
 
+<<<<<<< HEAD
 # <h2 align="center"><b><i>**:small_orange_diamond:**PLANTEAMIENTO DEL PROBLEMA**</i></b></h2>
+=======
+# <h2 align="center"><b><i>:small_orange_diamond:**PLANTEAMIENTO DEL PROBLEMA**</i></b></h2>
+>>>>>>> 9c2fe80b43d7f3c4d1090114ca038074c10cf447
 
 <p style="text-indent: 20px;">
 Nuestro cliente es parte de empresas de restaurantes y afines, y desean tener un análisis detallado de la opinión de los usuarios en Yelp y cruzarlos con los de Google Maps sobre hoteles, restaurantes y otros negocios afines al turismo y ocio. Nuestra misión consiste en amplificar la visibilidad y la influencia de su negocio. Nos enfocamos en conectar de manera significativa con los comensales, quienes toman decisiones informadas basadas en las reseñas que descubren en plataformas como Yelp y Google. Nos esforzamos por potenciar la experiencia del cliente, asegurando que su negocio destaque y deje una impresión duradera en aquellos que buscan experiencias auténticas y satisfactorias.
 </p>
 
 
+<<<<<<< HEAD
 # <h2 align="center"><b><i>**:small_orange_diamond:**OBJETIVOS DEL PROYECTO**</i></b></h2>
+=======
+# <h2 align="center"><b><i>:small_orange_diamond:**OBJETIVOS DEL PROYECTO**</i></b></h2>
+>>>>>>> 9c2fe80b43d7f3c4d1090114ca038074c10cf447
 <p style="text-indent: 20px;">
 Enfocamos nuestros esfuerzos en la construcción de una base de datos sólida destinada al análisis y modelado. Nuestro objetivo primordial es desarrollar un modelo avanzado de Machine Learning especializado en el análisis de sentimientos a partir de críticas, reseñas y opiniones de usuarios.
 Posteriormente, creamos un reporte dinámico que proporciona una visión detallada de las tendencias del consumidor en el sector gastronómico. Este análisis exhaustivo permite identificar riesgos y oportunidades mediante un seguimiento continuo. Nuestro enfoque en KPIs (Indicadores Clave de Rendimiento) específicos asegura una evaluación precisa y eficiente de los resultados obtenidos.
@@ -59,12 +67,18 @@ Métrica: Rango de valores entre 0 (bueno) y 1 (malo). Se busca reducir las rese
 Definición: La tasa de crecimiento en la cantidad de reservas de los restaurantes.
 Fórmula: ((Reservas actuales - Reservas del mes anterior) / Reservas del mes anterior) * 100
 Métrica: Porcentaje. Se busca aumentar la cantidad de reservas en un 5% respecto al mes anterior.
+<<<<<<< HEAD
 * 5- Comparación de Reseñas entre Restaurantes de la Misma Zona:
 Definición: Compara la cantidad y calidad de reseñas entre diferentes restaurantes ubicados en la misma zona geográfica.
 Fórmula: Número total de reseñas recibidas por el restaurante.
 Métrica: Puede ser cualitativa (evaluación subjetiva) o cuantitativa (número de reseñas). Se busca identificar tendencias y áreas de mejora en comparación con la competencia local.
 </p>
 
+=======
+
+</p>
+
+>>>>>>> 9c2fe80b43d7f3c4d1090114ca038074c10cf447
 
 # <h2 align="center"><b><i>:small_orange_diamond:**SOLUCIÓN AL PROBLEMA**:</i></b></h2>
 
@@ -93,7 +107,35 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 <p>:purple_circle:Data Analyst: Nadir Angelini</p>
 <p>:purple_circle:Data Scientists: Camila Fernández Llaneza y Leonel Viscay</p>
 
+<<<<<<< HEAD
+=======
+
+# <h2 align="center"><b><i>:small_orange_diamond:**DESARROLLO DEL PROYECTO**:</i></b></h2>
+# <h3 align="center"><b><i>**Análisis preliminares - EDA´s (Análisis Exploratorio de Datos)**:</i></b></h3>
+Se ha realizado un EDA_Preliminar que es la exploración de las diferentes fuentes de datos de Google Maps y Yelp. El propósito de estos análisis preliminares consiste en determinar qué datos serán funcionales para los objetivos propuestos anteriormente con el fin de hacer una limpieza y crear la arquitectura del Data Warehouse para la ejecución del proyecto.
+
+
+# <h3 align="center"><b><i>**Arquitectura del proyecto**:</i></b></h3>
+![Arquitectura del Proyecto](https://github.com/camillaneza/PF_Google_Yelp/blob/1a8b4544b0ce7888baef22bbd8c67d7a321d48ed/Arquitectura.png)
+
+# <h3 align="center"><b><i>**Diagrama de Entidad-Relación**:</i></b></h3>
+![Diagrama de Entidad-Relación](https://github.com/camillaneza/PF_Google_Yelp/blob/2f282c2b2ec7af9a70530c2ce968ad5544893b06/Diagrama%20de%20Entidad-Relaci%C3%B3n.jpeg)
+
+# <h3 align="center"><b><i>**Dashboard**:</i></b></h3>
+Se realizó un Dashboard interactivo mostrando indicadores claves para las empresas así como los KPI's anteriormente mencionados para una mejora en la toma de decisiones en la implementación de estrategias.
+![Dashboard 1](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%201.jpg)
+![Dashboard 21](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%202.jpg)
+![Dashboard 3](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%203.jpg)
+![Dashboard 4](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%204.jpg)
+![Dashboard 5](https://github.com/camillaneza/PF_Google_Yelp/blob/fdcce9eb9b26cff2d102a8c3927d053de98946fe/Im%C3%A1genes%20Dashboard/Dashboard%205.jpg)
+
+
+https://dainsightsolutions.streamlit.app/
+>>>>>>> 9c2fe80b43d7f3c4d1090114ca038074c10cf447
 
 <h2 align="center"><b><i>:small_orange_diamond:DOCUMENTACIÓN ADICIONAL:</i></b></h2>
 
 [Planificación](https://trello.com/b/oqMq7m68/pfgoogleyelp)
+
+[Documentación: Propuesta del Proyecto](https://docs.google.com/document/d/1BgjR7BgYJHB1vxhq1U-IXXomBF3vnN7GtuaUTItTp38/edit)
+
