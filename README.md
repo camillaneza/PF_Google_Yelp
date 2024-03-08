@@ -148,7 +148,7 @@ Se ha realizado un [EDA_Preliminar](https://github.com/camillaneza/PF_Google_Yel
 </p>
 
 # <h2 align="center"><b><i>:small_orange_diamond:**DASHBOARD**:</i></b></h2>
-Se realizó un Dashboard interactivo mostrando indicadores claves para las empresas así como los KPI's anteriormente mencionados para una mejora en la toma de decisiones en la implementación de estrategias.
+Se realizó un [Dashboard](https://1drv.ms/u/s!AkbOEBqtfq-Pgc1FmkJ5Mrv8QNzByg?e=dJPJqt) interactivo mostrando indicadores claves para las empresas así como los KPI's anteriormente mencionados para una mejora en la toma de decisiones en la implementación de estrategias.
 
 <p align="center">
 <img src="images/Dash1.jpeg" alt="Dashboard">
