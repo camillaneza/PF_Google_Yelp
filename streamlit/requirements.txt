@@ -1,0 +1,8 @@
+streamlit
+yfinance
+pandas
+scikit-learn
+numpy
+folium
+streamlit_folium
+
