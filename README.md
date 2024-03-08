@@ -92,9 +92,9 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 </p>
 
 <p>:purple_circle:[Nadir Angelini](https://www.linkedin.com/in/nadirangelini/) </p>
-<p>:purple_circle:Germán Gutierrez: </p>
-<p>:purple_circle:Leonel Viscay: </p>
-<p>:purple_circle:[Camila Fernández Llaneza](http://www.linkedin.com/in/camila-fernandez-llaneza)</p>
+<p>:purple_circle:[Germán Gutierrez](https://www.linkedin.com/in/german-daniel-gutierrez/) </p>
+<p>:purple_circle:[Leonel Viscay](https://www.linkedin.com/in/leonel-viscay/) </p>
+<p>:purple_circle:[Camila Fernández Llaneza](http://www.linkedin.com/in/camila-fernandez-llaneza/)</p>
 
 
 # <h2 align="center"><b><i>:small_orange_diamond:**DESARROLLO DEL PROYECTO**:</i></b></h2>
