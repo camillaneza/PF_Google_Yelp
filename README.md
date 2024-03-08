@@ -129,6 +129,8 @@ Se ha realizado un [EDA_Preliminar](https://github.com/camillaneza/PF_Google_Yel
 <img src="images/streamlit3.jpg" alt="Streamlit">
 </p>
 
+•[Modelos de Recomendación:](https://github.com/camillaneza/PF_Google_Yelp/blob/5eac6a014d1e4c59c4a2ffb024b2edc467901b74/jupiter/ML/Sistema_Recomendacion.ipynb) Se recomienda a los usuarios restaurantes similares a sus comportamientos de consumo.
+
 <p align="center">
 <img src="images/streamlit4.jpg" alt="Streamlit">
 </p>
@@ -136,6 +138,8 @@ Se ha realizado un [EDA_Preliminar](https://github.com/camillaneza/PF_Google_Yel
 <p align="center">
 <img src="images/streamlit5.jpg" alt="Streamlit">
 </p>
+
+•[Análisis de Sentimiento:](https://github.com/camillaneza/PF_Google_Yelp/blob/5eac6a014d1e4c59c4a2ffb024b2edc467901b74/jupiter/ML/ML_AnalisisSentimientos.ipynb) Se clasifican los comentarios en bueno, neutro y malo.
 
 <p align="center">
 <img src="images/streamlit6.jpg" alt="Streamlit">
