@@ -7,3 +7,5 @@ jupiter/prueba.ipynb
 data/muestra.parquet
 streamlit/
 __pycache__/
+data/df_restaurante_review.csv
+data/df_sin_palabras.csv
