@@ -118,27 +118,27 @@ Se ha realizado un [EDA_Preliminar](https://github.com/camillaneza/PF_Google_Yel
 # <h2 align="center"><b><i>:small_orange_diamond:**MODELOS DE MACHINE LEARNING**:</i></b></h2>
 
 <p align="center">
-<img src="images/streamlit1.jpeg" alt="Streamlit">
+<img src="images/streamlit1.jpg" alt="Streamlit">
 </p>
 
 <p align="center">
-<img src="images/streamlit2.jpeg" alt="Streamlit">
+<img src="images/streamlit2.jpg" alt="Streamlit">
 </p>
 
 <p align="center">
-<img src="images/streamlit3.jpeg" alt="Streamlit">
+<img src="images/streamlit3.jpg" alt="Streamlit">
 </p>
 
 <p align="center">
-<img src="images/streamlit4.jpeg" alt="Streamlit">
+<img src="images/streamlit4.jpg" alt="Streamlit">
 </p>
 
 <p align="center">
-<img src="images/streamlit5.jpeg" alt="Streamlit">
+<img src="images/streamlit5.jpg" alt="Streamlit">
 </p>
 
 <p align="center">
-<img src="images/streamlit6.jpeg" alt="Streamlit">
+<img src="images/streamlit6.jpg" alt="Streamlit">
 </p>
 
 # <h2 align="center"><b><i>:small_orange_diamond:**DASHBOARD**:</i></b></h2>
