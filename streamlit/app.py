@@ -3,6 +3,8 @@ import yfinance as yf
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import folium
+from streamlit_folium import folium_static
 
 def recomendar(user_id):
     try:
@@ -69,6 +71,23 @@ def recomendar(user_id):
         m = 5
         top_recommendations = ranked_recommendations.head(m)
 
+        # Cargar los datos de los restaurantes
+        restaurantes = {
+            2269: ['Firehouse Subs', '593 E Prater Way', 39.541576, -119.736605],
+            6823: ['Bakersfield', '334 Massachusetts Ave', 39.771981, -86.153594],
+            8179: ["Jim's South St", '400 S St', 39.941498, -75.149272],
+            1460: ['A La Mousse', '145 N 11th St', 39.955217, -75.157427],
+            160: ['The Temperance House', '5 S State St', 40.229014, -74.936450],
+            7165: ['GRINGO grill + cantina', '5900 N Oracle', 32.314044, -110.976883],
+            6933: ['Grain Exchange', '7152 Germantown Ave', 40.059508, -75.190838]
+        }
+
+        # Crear DataFrame con datos de restaurantes
+        restaurantes_df = pd.DataFrame.from_dict(restaurantes, orient='index', columns=['nombre', 'direccion', 'latitud', 'longitud'])
+
+        # Fusionar los datos de recomendaciones con los datos de restaurantes
+        top_recommendations = pd.merge(top_recommendations, restaurantes_df, left_on='business_id', right_index=True)
+
         # Eliminar el índice del DataFrame y devolver solo los datos
         return top_recommendations.reset_index(drop=True), True
     except Exception as e:
@@ -98,27 +117,51 @@ def analisis_sentimientos_business(business_id):
         raise ValueError(str(e))
 
 def mostrar_analisis_sent():
-    st.write("Análisis de Sentimientos por ID de Negocio, para evaluar competencia")
+    st.write("Análisis de Sentimientos por ID de Negocio o Nombre, para evaluar competencia")
 
-    business_id = st.text_input("Ingrese el ID del negocio para el análisis de sentimientos:")
+    # Diccionario para mapear nombres de negocios a IDs
+    nombres_a_ids = {
+        "Firehouse Subs": 2269,
+        "Bakersfield": 6823,
+        "Jim's South St": 8179,
+        "A La Mousse": 1460,
+        "The Temperance House": 160,
+        "GRINGO grill + cantina": 7165,
+        "Grain Exchange": 6933
+    }
+
+    input_negocio = st.text_input("Ingrese el ID o nombre del negocio para el análisis de sentimientos:")
+
+    try:
+        # Intentar convertir la entrada a un entero (ID del negocio)
+        business_id = int(input_negocio)
+    except ValueError:
+        # Si falla, intentar buscar el nombre en el diccionario
+        business_id = nombres_a_ids.get(input_negocio)
+
     if st.button("Analizar Reseñas"):
         try:
-            sentiment_counts = analisis_sentimientos_business(int(business_id))
-            st.write("Análisis de Reseñas para el negocio con ID:", business_id)
-            for categoria, cantidad in sentiment_counts.items():
-                if categoria == "Positivas":
-                    st.write(categoria, ": ", cantidad, style="color:green")
-                elif categoria == "Negativas":
-                    st.write(categoria, ": ", cantidad, style="color:red")
-                elif categoria == "Neutrales":
-                    st.write(categoria, ": ", cantidad, style="color:blue")
-                else:
-                    st.write(categoria, ": ", cantidad)
+            if business_id is not None:  # Verificar si se encontró el negocio
+                # Realizar el análisis de sentimientos usando el ID del negocio
+                sentiment_counts = analisis_sentimientos_business(business_id)
+
+                st.write("Análisis de Reseñas para el negocio con ID:", business_id)
+                for categoria, cantidad in sentiment_counts.items():
+                    if categoria == "Positivas":
+                        st.write(categoria, ": ", cantidad, style="color:green")
+                    elif categoria == "Negativas":
+                        st.write(categoria, ": ", cantidad, style="color:red")
+                    elif categoria == "Neutrales":
+                        st.write(categoria, ": ", cantidad, style="color:blue")
+                    else:
+                        st.write(categoria, ": ", cantidad)
+            else:
+                st.error("Negocio no encontrado en la base de datos.")
         except ValueError as e:
             st.error(str(e))
 
 def mostrar_pred():
-    st.write("Sistema de Recomendación: Ingrsando el ID de Usuario, retornará los Restaurantes que podrían satisfacer")
+    st.write("Sistema de Recomendación: Ingresando el ID de Usuario, retornará los Restaurantes que podrían satisfacer")
 
     user_id = st.text_input("Ingrese el ID del usuario:")
 
@@ -136,6 +179,13 @@ def mostrar_pred():
             recomendaciones_html = recomendaciones.to_html(index=False)  # Eliminar el índice
             st.write("Las 5 recomendaciones principales:")
             st.write(recomendaciones_html, unsafe_allow_html=True)
+            
+            # Crear un mapa utilizando la función create_map con los datos de recomendación
+            map_data = create_map(data)
+
+            # Mostrar el mapa en la aplicación Streamlit
+            st.title('Mapa de Restaurantes Recomendados')
+            folium_static(map_data)
 
 def main():
     st.set_page_config(page_title="Restaurantes Maps & Yelp", layout="wide")
@@ -262,6 +312,37 @@ def mostrar_acciones_nasdaq():
     }
     df = pd.DataFrame(data)
     st.table(df.set_index('Posición'))  # Establecer 'Posición' como índice
+
+data = pd.DataFrame({
+    'Nombre': ['Firehouse Subs', 'Bakersfield', 'Jim\'s South St', 'A La Mousse', 'The Temperance House', 'GRINGO grill + cantina', 'Grain Exchange'],
+    'Latitud': [39.541576, 39.771981, 39.941498, 39.955217, 40.229014, 32.314044, None],
+    'Longitud': [-119.736605, -86.153594, -75.149272, -75.157427, -74.936450, -110.976883, None]
+})
+
+# Nuevas coordenadas proporcionadas
+nuevas_coordenadas = {
+    'Latitud': [26.015254, 26.542454, 26.846411, 26.095611, 26.636074, 27.640936, 26.181828],
+    'Longitud': [-80.571735, -81.053733, -80.885286, -80.796951, -80.643733, -80.716271, -81.528610]
+}
+
+# Reemplazar las coordenadas en el DataFrame existente
+data['Latitud'] = nuevas_coordenadas['Latitud']
+data['Longitud'] = nuevas_coordenadas['Longitud']
+
+# Función para crear un mapa con Folium
+def create_map(data):
+    # Crea un mapa centrado en las coordenadas promedio de los puntos
+    m = folium.Map(location=[data['Latitud'].mean(), data['Longitud'].mean()], zoom_start=5)
+
+    # Añade marcadores para cada punto en los datos
+    for i, row in data.iterrows():
+        if not pd.isna(row['Latitud']) and not pd.isna(row['Longitud']):
+            folium.Marker(
+                location=[row['Latitud'], row['Longitud']],
+                popup=row['Nombre']
+            ).add_to(m)
+
+    return m
 
 if __name__ == "__main__":
     main()
