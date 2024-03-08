@@ -6,3 +6,4 @@ main.py
 jupiter/prueba.ipynb
 data/muestra.parquet
 streamlit/
+__pycache__/
