@@ -86,9 +86,15 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 
 
 # <h2 align="center"><b><i>:small_orange_diamond:**INTEGRANTES DEL EQUIPO**</i></b></h2>
-<p>:purple_circle:Data Engineer : Germán Gutierrez</p>
-<p>:purple_circle:Data Analyst: Nadir Angelini</p>
-<p>:purple_circle:Data Scientists: Camila Fernández Llaneza y Leonel Viscay</p>
+
+<p align="center">
+<img src="images/Integrantes.png" alt="Integrantes">
+</p>
+
+<p>:purple_circle:[Nadir Angelini](https://www.linkedin.com/in/nadirangelini/) </p>
+<p>:purple_circle:Germán Gutierrez: </p>
+<p>:purple_circle:Leonel Viscay: </p>
+<p>:purple_circle:[Camila Fernández Llaneza](http://www.linkedin.com/in/camila-fernandez-llaneza)</p>
 
 
 # <h2 align="center"><b><i>:small_orange_diamond:**DESARROLLO DEL PROYECTO**:</i></b></h2>
