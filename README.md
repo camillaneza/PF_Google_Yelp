@@ -12,7 +12,7 @@ Este proyecto consiste en analizar el mercado estadounidense referido a restaura
 </p>
 
 <p style="text-indent: 20px;">
-Se analizarán los restaurantes en los estados de Florida, Georgia, Alabama, Carolina del Norte, y Carolina del Sur, entre los años 2017-2022.
+Se analizarán los restaurantes en el estado de Florida, entre los años 2017-2022.
 </p>
 
 <p style="text-indent: 20px;"> 
@@ -83,6 +83,8 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 • Jupyter
 • Docker
 • Github
+• Streamlit
+• Dataflow
 
 
 # <h2 align="center"><b><i>:small_orange_diamond:**INTEGRANTES DEL EQUIPO**</i></b></h2>
@@ -91,15 +93,15 @@ Nuestra propuesta de solución abarca la recopilación, el análisis y la interp
 <img src="images/Integrantes.png" alt="Integrantes">
 </p>
 
-<p>:purple_circle:[Nadir Angelini](https://www.linkedin.com/in/nadirangelini/) </p>
-<p>:purple_circle:[Germán Gutierrez](https://www.linkedin.com/in/german-daniel-gutierrez/) </p>
-<p>:purple_circle:[Leonel Viscay](https://www.linkedin.com/in/leonel-viscay/) </p>
-<p>:purple_circle:[Camila Fernández Llaneza](http://www.linkedin.com/in/camila-fernandez-llaneza/)</p>
+<p>[Nadir Angelini](https://www.linkedin.com/in/nadirangelini/) </p>
+<p>[Germán Gutierrez](https://www.linkedin.com/in/german-daniel-gutierrez/) </p>
+<p>[Leonel Viscay](https://www.linkedin.com/in/leonel-viscay/) </p>
+<p>[Camila Fernández Llaneza](http://www.linkedin.com/in/camila-fernandez-llaneza/)</p>
 
 
 # <h2 align="center"><b><i>:small_orange_diamond:**DESARROLLO DEL PROYECTO**:</i></b></h2>
 # <h3 align="center"><b><i>**Análisis preliminares - EDA's (Análisis Exploratorio de Datos)**:</i></b></h3>
-Se ha realizado un EDA_Preliminar que es la exploración de las diferentes fuentes de datos de Google Maps y Yelp. El propósito de estos análisis preliminares consiste en determinar qué datos serán funcionales para los objetivos propuestos anteriormente con el fin de hacer una limpieza y crear la arquitectura del Data Warehouse para la ejecución del proyecto.
+Se ha realizado un [EDA_Preliminar](https://github.com/camillaneza/PF_Google_Yelp/blob/2612d0b025e0e13967f048128300c54cc9dfcba3/jupiter/EDA/EDA_Yelp.ipynb) que es la exploración de las diferentes fuentes de datos de Google Maps y Yelp. El propósito de estos análisis preliminares consiste en determinar qué datos serán funcionales para los objetivos propuestos anteriormente con el fin de hacer una limpieza y crear la arquitectura del Data Warehouse para la ejecución del proyecto.
 
 
 # <h2 align="center"><b><i>:small_orange_diamond:**ARQUITECTURA**:</i></b></h2>
@@ -113,6 +115,31 @@ Se ha realizado un EDA_Preliminar que es la exploración de las diferentes fuent
 <img src="images/Diagrama de Entidad-Relación.jpeg" alt="Diagrama">
 </p>
 
+# <h2 align="center"><b><i>:small_orange_diamond:**MODELOS DE MACHINE LEARNING**:</i></b></h2>
+
+<p align="center">
+<img src="images/streamlit1.jpeg" alt="Streamlit">
+</p>
+
+<p align="center">
+<img src="images/streamlit2.jpeg" alt="Streamlit">
+</p>
+
+<p align="center">
+<img src="images/streamlit3.jpeg" alt="Streamlit">
+</p>
+
+<p align="center">
+<img src="images/streamlit4.jpeg" alt="Streamlit">
+</p>
+
+<p align="center">
+<img src="images/streamlit5.jpeg" alt="Streamlit">
+</p>
+
+<p align="center">
+<img src="images/streamlit6.jpeg" alt="Streamlit">
+</p>
 
 # <h2 align="center"><b><i>:small_orange_diamond:**DASHBOARD**:</i></b></h2>
 Se realizó un Dashboard interactivo mostrando indicadores claves para las empresas así como los KPI's anteriormente mencionados para una mejora en la toma de decisiones en la implementación de estrategias.
